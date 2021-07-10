@@ -35,13 +35,13 @@ function Signup() {
                         </div>
                         <div className="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Password</label>
-                            <input onChange={(e) => setPassword(e.target.value)} value={password} type="password" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                            <input onChange={(e) => setPassword(e.target.value)} value={password} type="password" className="form-control" id="exampleFormControlInput1" placeholder="" />
                         </div>
                         <div class="d-grid gap-2">
-                            <button onClick={signup_user} class="btn btn-primary" type="button">Signup</button>
+                            <button onClick={signup_user} class="btn login_btn btn-primary" type="button">Signup</button>
                         </div>
                         <div>
-                            <Link to="/">Login</Link>
+                            <Link to="/login">Login</Link>
                         </div>
                     </div>
                 </div>
