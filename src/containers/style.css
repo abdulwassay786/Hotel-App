@@ -1,0 +1,68 @@
+.main{
+    background-image: url(https://preview.colorlib.com/theme/suites/images/xhero_3.jpg.pagespeed.ic.0RfTZ9Ub16.webp);
+    width: 100%;
+    max-width: 2000px;
+    height: 900px;
+}
+.login_page{
+    width: 100%;
+}
+
+.loginPage{
+    height: 900px;
+    background-image: url(https://preview.colorlib.com/theme/suites/images/xhero_3.jpg.pagespeed.ic.0RfTZ9Ub16.webp);
+}
+.login_card {
+    color: rgb(151, 76, 53);
+    background-color: rgb(224, 190, 173)!important;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    padding: 10px;
+}
+.login_btn{
+    background-color: chocolate !important;
+    border-color: aliceblue !important;
+}
+
+.users_card {
+    padding: 10px;
+}
+
+.chat_card {
+    padding: 10px;
+    margin-left: 20px ;
+}
+
+.roomsHeading{
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.roomTop{
+    background-color: rgb(233, 233, 227);
+}
+
+.room_card img{
+    width: 25rem;
+    text-align: center;
+    
+}
+
+.room_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.card_items h4{
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
